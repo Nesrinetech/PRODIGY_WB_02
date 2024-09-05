@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+    rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="stopwatch">
+    <h1>Stop Watch</h1>
+    <div class="circle">
+    <span class="time" id="display">00:00:00</span>
+</div>
+
+<div class="controls">
+    <button class="buttonPlay">
+        <Img id="playButton" src="icons/play-button.svg" />
+        <Img id="pauseButton" src="icons/pause-button.svg" />
+    </button>
+
+
+    <button class="buttonReset"> 
+        <Img id="resetButton" src="icons/reset-button.png"/>
+    </button>
+    <button class="button lap">
+        <Img id="lapButton" src="icons/lap-button.png"/>
+    </button>
+</div>
+</div>
+<section>
+<ul class="laps"></ul>
+<button class="lap-clear-button">Clear All</button>
+</section>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
